@@ -110,3 +110,48 @@ The ESP8266 modules used browser-based setup pages for entering Wi-Fi and MQTT c
 For each module the electrical schematics, PCB source files and board previews are available in the `hardware/modules/` directory.
 
 Mechanical CAD, enclosure assemblies, and printable files are published separately on [GrabCAD](https://grabcad.com/library/complete-smart-home-system-with-enhanced-safety-features-1).
+
+## Running the archived project
+
+### Flutter application
+
+Requirements:
+
+- Flutter SDK
+- Android SDK
+- a compatible Java Development Kit
+- an Android device or emulator
+
+From the Flutter project directory:
+
+```bash
+cd mobile-app/smarthome
+flutter pub get
+flutter analyze
+flutter run
+```
+
+This project was created with an older version of Flutter/Android toolchain, and may require dependency or gradle updates on current development environments.
+
+### Python server
+
+The entry point of the server is:
+
+```text
+server/script.py
+```
+
+To reconstruct the original environment:
+
+1. Create a Python environment.
+2. Install the packages referenced by the imports in `script.py`.
+3. Configure a local MQTT broker.
+4. Recreate the project database using the schema image.
+5. Replace the archived local addresses and credentials with your own configuration.
+6. Run the server on the same network as the application and ESP8266 modules.
+
+### ESP8266 firmware examples
+
+The provided firmware examples can be opened in the Arduino IDE. Before compiling each sketch, install the board support and libraries referenced.
+
+The firmware uses local Wi-Fi, MQTT, server and certificate settings. These values have to be replaced before reuse.

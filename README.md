@@ -1,6 +1,6 @@
 # Complete Smart Home System with Enhanced Safety Features
 
-IoT smart-home graduation project with embedded safety modules, PCB design, MQTT communication, Python server, database, Flutter mobile app and custom mechanical designs.
+An IoT smart-home graduation project with embedded safety modules, PCB design, MQTT communication, Python server, database, Flutter mobile app and custom mechanical designs.
 
 It was designed for home automation and safety-oriented monitoring for fire, flooding, motion, door opening, temperature, alarms, electrical loads, and power availability.
 

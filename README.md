@@ -155,3 +155,20 @@ To reconstruct the original environment:
 The provided firmware examples can be opened in the Arduino IDE. Before compiling each sketch, install the board support and libraries referenced.
 
 The firmware uses local Wi-Fi, MQTT, server and certificate settings. These values have to be replaced before reuse.
+
+## Application and archive limitations
+
+- Live functionality requires reconstruction of the original local environment.
+- Only two of the ten firmware projects are available.
+- The power-meter interface contains simulated data only, not real data.
+
+## Archival security notice
+
+This repository stores original local credentials, certificates, and private-key files for historical documentation.
+
+Anyone adapting this project must:
+
+- replace all usernames and passwords
+- change broker, server, and database addresses
+- generate new certificates and cryptographic keys
+- apply current security practices before deployment

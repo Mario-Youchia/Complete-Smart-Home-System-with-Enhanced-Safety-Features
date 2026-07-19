@@ -56,3 +56,57 @@ The two examples included are not the full firmware needed to run the full ten-m
 The Android app was developed using Flutter. It gives interfaces to configure the server, to communicate with MQTT, to control modules, to send notifications, and to change system settings.
 
 Android build is available from the [latest GitHub Release](../../releases/latest).
+
+### Selected application screens
+
+<p align="center">
+  <img src="docs/screenshots/mobile-app/smart-home-mobile-app-14-dual-channel-relay-controls.jpg"
+       alt="Dual-channel relay controls"
+       width="23%">
+  <img src="docs/screenshots/mobile-app/smart-home-mobile-app-13-alarm-module-history.jpg"
+       alt="Alarm-module history"
+       width="23%">
+  <img src="docs/screenshots/mobile-app/smart-home-mobile-app-09-flood-detection-history.jpg"
+       alt="Flood-detection history"
+       width="23%">
+  <img src="docs/screenshots/mobile-app/smart-home-mobile-app-23-notification-history.jpg"
+       alt="Notification history"
+       width="23%">
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/mobile-app/smart-home-mobile-app-08-dashboard-relay-2-off-confirmation.jpg"
+       alt="Relay confirmation on dashboard"
+       width="23%">
+  <img src="docs/screenshots/mobile-app/smart-home-mobile-app-04-flood-detection-summary-dialog.jpg"
+       alt="Flood-detection summary"
+       width="23%">
+  <img src="docs/screenshots/mobile-app/smart-home-mobile-app-17-server-settings-form.jpg"
+       alt="Server settings form"
+       width="23%">
+  <img src="docs/screenshots/mobile-app/smart-home-mobile-app-24-navigation-drawer.jpg"
+       alt="Application navigation drawer"
+       width="23%">
+</p>
+
+### Device connection interface
+
+The ESP8266 modules used browser-based setup pages for entering Wi-Fi and MQTT connection details.
+
+<p align="center">
+  <img src="docs/screenshots/device-connection/smart-home-device-setup-01-wifi-credentials-form.jpg"
+       alt="Wi-Fi credentials form"
+       width="31%">
+  <img src="docs/screenshots/device-connection/smart-home-device-setup-03-wifi-and-mqtt-form-empty.jpg"
+       alt="Wi-Fi and MQTT configuration form"
+       width="31%">
+  <img src="docs/screenshots/device-connection/smart-home-device-setup-06-wifi-and-mqtt-connection-success.jpg"
+       alt="Successful Wi-Fi and MQTT connection"
+       width="31%">
+</p>
+
+## Hardware and PCB documentation
+
+For each module the electrical schematics, PCB source files and board previews are available in the `hardware/modules/` directory.
+
+Mechanical CAD, enclosure assemblies, and printable files are published separately on [GrabCAD](https://grabcad.com/library/complete-smart-home-system-with-enhanced-safety-features-1).
